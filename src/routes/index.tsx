@@ -102,9 +102,8 @@ function Home() {
 
     <main>
       <section id="top" className="hero" aria-labelledby="hero-title">
-        <motion.div className="hero-image-wrap" style={{ y: heroShift }}><img src={images.hero} alt="Monster truck leaping over crushed cars amid fire at a stunt arena" className="hero-image" width={1920} height={1280} fetchPriority="high" /></motion.div>
+        <motion.div className="hero-image-wrap" style={{ y: heroShift }}><img src={"https://www.team-klaas.com/pluginAppObj/pluginAppObj_3_02/017_sb.jpg"} alt="Monster truck leaping over crushed cars amid fire at a stunt arena" className="hero-image" width={1920} height={1280} fetchPriority="high" /></motion.div>
         <div className="hero-shade" />
-        <div className="hero-wordmark" aria-hidden="true">TEAM KLAAS</div>
         <div className="hero-inner page-width">
           <div className="hero-copy"><p className="eyebrow hero-eyebrow"><span className="eyebrow-line" /> THE MOTOR SHOW EXPERIENCE <span className="edition">DENMARK · EST. IN ACTION</span></p>
             <h1 id="hero-title">KLAAS-<br /><span>STUNTMEN</span></h1>
@@ -114,7 +113,6 @@ function Home() {
           </div>
           <div className="hero-bottom"><div className="hero-index"><span className="index-dash" /> LIVE STUNT EXPERIENCE <span className="hero-index-number">01 / 04</span></div><a className="scroll-cue" href="#show">SCROLL TO EXPLORE <ArrowDown size={15} /></a></div>
         </div>
-        <div className="stat-badge stat-one"><strong>09</strong><span>STUNT<br />ACTS</span></div><div className="stat-badge stat-two"><strong>100%</strong><span>ADRENALINE</span></div>
       </section>
 
       <div className="marquee" aria-label="Monstertrucks, drift, fire, crash, jumps, quad"><div className="marquee-track" aria-hidden="true">{Array.from({ length: 4 }).map((_, i) => <span key={i}>MONSTERTRUCKS <b>✳</b> DRIFT <b>✳</b> FIRE <b>✳</b> CRASH <b>✳</b> JUMPS <b>✳</b> QUAD <b>✳</b> </span>)}</div></div>
